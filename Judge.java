@@ -18,18 +18,6 @@ public class Judge {
         return -1;
     }
     public static void main(String[] args) {
-//        System.out.println("Enter number of people in the town: ");
-//        Scanner scan = new Scanner(System.in);
-//        int N = scan.nextInt();
-//        System.out.println("Enter people:\n");
-//        int[][] trust = new int[N][N];
-//        for (int i = 0; i < N; i++) {
-//            for (int j = 0; j < N; j++) {
-//                trust[i][j] = scan.nextInt();
-//            }
-//        }
-//        Judge j = new Judge();
-//        System.out.println("Output: "+j.findJudge(N, trust));
         int N = 4;
         int[][] trust = {{1,3},{1,4},{2,3},{2,4},{4,3}};
         Judge j = new Judge();
